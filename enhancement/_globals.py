@@ -21,6 +21,7 @@ PROJECT_PATHS: dict[str, str] = {
     "../docs": p.abspath("./docs"),
     "../logs": p.abspath("./logs/"),
     "../models": p.abspath("./models/"),
+    "../results": p.abspath("./results/"),
     "../plots": p.abspath("./plots/"),
     "../bright": p.abspath("./data/bright"),
     "../dark": p.abspath("./data/dark"),

@@ -27,7 +27,9 @@ __all__ = [
     "DimensionMismatchError",
     "InputNotATensorError",
     "_ModuleOrTensor",
+    "_Str",
     "_T",
+    "_Tensor",
     "config",
     "logger",
     "validate",
@@ -35,8 +37,8 @@ __all__ = [
 
 _ModuleOrTensor = torch.nn.Module | torch.Tensor
 _Str = str | None
-_Tensor = torch.Tensor
 _T = t.TypeVar("_T", bound=t.Callable[..., t.Any])
+_Tensor = torch.Tensor
 
 
 class _ExecutionError(Exception):
@@ -291,7 +293,7 @@ class BaseEnhancementCNN(nn.Module, metaclass=_MetaBaseEnhancementCNN):
         """Initialize ``BaseEnhancementCNN`` model."""
         super().__init__(*args, **kwargs)
         self.device = _DeviceManager().device
-        logger.info(f"Using device: {self.device.upper()}...")
+        logger.info(f"Using device: {self.device.type.upper()}...")
         self.to(self.device)
 
     @abc.abstractmethod
