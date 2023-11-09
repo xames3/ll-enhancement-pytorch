@@ -2,7 +2,7 @@
 CSC 481 Introduction to Image Processing Final Project
 ======================================================
 
-Author: Akshay Mestry <xa@mes3.dev>
+Author: Akshay Mestry, Aymaan Gillani and Joseph Giwa
 Created on: Sunday, November 05 2023
 Last updated on: Sunday, November 05 2023
 

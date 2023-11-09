@@ -2,7 +2,7 @@
 Global Settings
 ===============
 
-Author: Akshay Mestry <xa@mes3.dev>
+Author: Akshay Mestry, Aymaan Gillani and Joseph Giwa
 Created on: Sunday, November 05 2023
 Last updated on: Monday, November 06 2023
 
